@@ -1,5 +1,5 @@
 # Resume 
 Thanks to [@jai-dewani](https://github.com/jai-dewani) for creating this awesome stuff.
 
-This repository is the fork for the same purpose, serving Divyanshu's updated Resume.
+This repository is the fork for the same purpose, serving Divyanshu's updated Resume,
 You are open to fork it, but make sure, you mention the credits to the Original Author. 
