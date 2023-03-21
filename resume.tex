@@ -12,6 +12,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{xcolor}
+\usepackage{fontawesome}
 \input{glyphtounicode}
 
 
@@ -111,10 +112,10 @@
 
 \begin{center}
     \textbf{\Huge \scshape Divyanshu Shekhar} \\ \vspace{1pt}
-    \href{mailto:imdshekhar@gmail.com}{\underline{imdshekhar@gmail.com}} $|$  
-    \href{https://linkedin.com/in/dshekhar17}{\underline{linkedin.com/in/dshekhar17}} $|$
-    \href{https://github.com/divshekhar}{\underline{github.com/divshekhar}} $|$
-    \href{tel:+919110013305} {\underline{9110013305}}
+    \href{mailto:imdshekhar@gmail.com}{\faicon{envelope} \underline{imdshekhar@gmail.com}} $|$  
+    \href{https://linkedin.com/in/dshekhar17}{\faicon{linkedin} \underline{LinkedIn}} $|$
+    \href{https://github.com/divshekhar}{\faicon{github} \underline{GitHub}} $|$
+    \href{tel:+919110013305} {\faicon{phone} \underline{+91 9110013305}}
     
 \end{center}
 
@@ -163,8 +164,20 @@
       \resumeProjectHeading
           {\textbf{\href{https://play.google.com/store/apps/details?id=org.elitecaps.tyup}{Tyup : Connecting Students }}{[ Flutter, Dart, Java ]}}{June 2021 -- June 2022}
           \resumeItemListStart
-           \resumeItem{Created and launched a cutting-edge platform to enhance student collaboration and connection, offering a centralized hub for students to connect, communicate, and collaborate on projects seamlessly. Designed, developed, and sustained REST APIs, guaranteeing smooth integration with front-end applications.}
-           \resumeItem{Efficiently managed an android application boasting over 1,000 users, consistently driving high user engagement with a monthly average of 200 active users.}
+           \resumeItem{Led design and development team to launch a cutting-edge platform to enhance student collaboration.}
+           \resumeItem{Designed and implemented scalable APIs for managing user authentication and posts, hosted on AWS that served thousand of requests daily.}
+           \resumeItem{Continuous Integration/Deployment pipeline integration, pull requests, code reviews, load/stress testing, unit/integration/e2e testing}
+           \resumeItem{Efficiently managed an android application boasting over 5,000 users, consistently driving high user engagement with a monthly average of 1000 active users.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://play.google.com/store/apps/details?id=com.hackthedeveloper.recite}{Recite : Text-to-speech app for web \& PDF }}{[ Flutter, Dart, Java ]}}{April 2021}
+          \resumeItemListStart
+           \resumeItem{Addressed the market gap for a comprehensive text-to-speech app by developing a unique solution.}
+           \resumeItem{Integrated multi-language voice support using Google TTS and Spacy NLP Model for precise sentence detection.}
+           \resumeItem{Reached 10,000+ downloads with a monthly average of 2,000 active users through sustained efforts.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -172,19 +185,8 @@
       \resumeProjectHeading
           {\textbf{\href{https://github.com/dorbus/flexboard}{Flexboard : React component library for re-sizable sidebars }}{[ React, Typescript ]}}{November 2022}
           \resumeItemListStart
-            \resumeItem{Designed \& engineered a high-functional and user-friendly sidebar component library with complete resizability.}
-                \resumeItem{Leveraged Rollup, Storybook, Styled Components, Husky, Jest, and GitHub Actions to optimize the development.}
-            \resumeItem{Achieved outstanding community popularity with 150+ GitHub stars and 100+ weekly \href{https://www.npmjs.com/package/@dorbus/flexboard}{NPM} downloads.}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-    
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{\href{https://play.google.com/store/apps/details?id=com.hackthedeveloper.recite}{Recite : Text-to-speech app for web \& PDF }}{[ Flutter, Dart, Java ]}}{April 2021}
-          \resumeItemListStart
-           \resumeItem{Addressed the market gap for a comprehensive text-to-speech app by developing a unique solution.}
-           \resumeItem{Integrated multi-language and voice support with Google TTS and NLP for precise sentence detection.}
-           \resumeItem{Reached 10,000 downloads with a monthly average of 2,000 active users through sustained efforts.}
+            \resumeItem{Designed \& engineered a high-functional and user-friendly sidebar component library with complete resizability using rollup, storybook and styled components.}
+            \resumeItem{Achieved outstanding community popularity with 250+ GitHub stars and 100+ weekly \href{https://www.npmjs.com/package/@dorbus/flexboard}{NPM} downloads.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -193,19 +195,10 @@
           {\textbf{\href{https://github.com/marketplace/workflow-reporter} {Workflow Reporter }}{[ Typescript, Probot, GitHub API ]}}{January 2022}
           \resumeItemListStart
            \resumeItem{Created a GitHub app to streamline reporting and automate notifications of failed workflow job actions.}
-           \resumeItem{Implemented GitHub Actions and Pull Request API to optimize reporting and customize notifications.}
-           \resumeItem{Deployed the solution with over 50 subscribed customers, resulting in successful implementation and adoption.}
+           \resumeItem{Used GitHub Developer API to fetch Pull Request and Failed Actions data and use it to report custom message.}
+           \resumeItem{Deployed to Heroku with over 50 subscribed customers, resulting in successful implementation and adoption.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
-
-    % \resumeSubHeadingListStart
-    %   \resumeProjectHeading
-    %       {\textbf{\href{https://github.com/divshekhar/OpenCV}{OpenCV }}{[ Python, Numpy, Pandas, Matplotlib ]}}{June 2020}
-    %       \resumeItemListStart
-    %        \resumeItem{created object detection, motion detection, lane detection}
-    %        \resumeItem{Built face recognition \& face detection system using machine learning models}
-    %       \resumeItemListEnd
-    % \resumeSubHeadingListEnd
 
     \resumeSubHeadingListStart
       \resumeProjectHeading
@@ -248,8 +241,9 @@
       \resumeProjectHeading
           {\textbf{\href{https://hackthedeveloper.com} {Hack The Developer : Master Your Skills }}{[Wordpress]}}{ April 2020 - Present}
           \resumeItemListStart
-           \resumeItem{Showcases expertise in diverse programming subjects, including: Advanced Python techniques, utilization of OpenCV, mastery of Redis, web development with Go and API building, utilization of Docker, and creation of graphical user interfaces with C and GTK.}
-           \resumeItem{Successfully retains a monthly user base of over 10,000. Provides practical tutorials, catering to both aspiring developers and experienced programmers seeking to broaden their skillset.}
+           \resumeItem{Demonstrated expertise in programming languages such as Go, Python, Java, frameworks such as Node, Flutter, GTK+, and libraries such as React, pytorch, pandas through blog content and industry recognition.}
+           \resumeItem{Optimized blog content using SEO techniques to improve search engine rankings and increase website traffic.}
+           \resumeItem{Hosted on AWS EC2, successfully retains a monthly user base of over 10,000. Provides practical implementations, catering to both aspiring developers and experienced software engineers seeking to broaden their skill-set.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -258,7 +252,7 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
         \resumeItemListStart
-            \resumeItem{\textbf{\href{https://www.linkedin.com/posts/dshekhar17_hultprize2022-hultprizekiit-kiituniversity-activity-6899007358467743746-6hZ3}{Hult Prize 2022 On-Campus Winner}}: Demonstrated strong leadership, creative thinking, effective problem-solving abilities, excellent communication skills, teamwork, and attention to detail, resulting in a win.}
+            \resumeItem{\textbf{\href{https://www.linkedin.com/posts/dshekhar17_hultprize2022-hultprizekiit-kiituniversity-activity-6899007358467743746-6hZ3}{Hult Prize 2022 On-Campus Winner}}: Led the design and development team, Won 1st Prize, for creating a student connectivity application to enable project collaboration easy with \textit{proof-of-skill} and \textit{proof-of-work} concept.}
             
       \resumeItemListEnd
     }}
@@ -266,30 +260,42 @@
 
 %
 %-----------PROGRAMMING SKILLS-----------
+% \section{Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%       \textbf{Languages}{: C language, C++, Java, Python, Dart, JavaScript, Go, Typescript, Assembly, Shell, SQL } \\
+%       \textbf{Databases}{: MySQL, MongoDB, DynamoDB, Redis, phpMyAdmin} \\
+%       \textbf{Libraries}{: React, Babel, Webpack, Flask, NumPy, OpenCV, Pandas, PyTorch, TensorFlow, Spacy, Scikit-learn} \\
+%      \textbf{Frameworks}{: Flutter, GTK+, Node.js, Express.js, Angular, Django } \\
+%      \textbf{Tools}{: Linux, Git, Scrum, Amazon Web Services (AWS), Microsoft Azure, Docker, Postman, Makefile } \\
+%     }}
+%  \end{itemize}
+
 \section{Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-      \textbf{Languages}{: C language, C++, Java, Python, Dart, JavaScript, Go, Typescript, Assembly, Shell, SQL } \\
-      \textbf{Databases}{: MySQL, MongoDB, DynamoDB, Redis, phpMyAdmin} \\
-      \textbf{Libraries}{: React, Babel, Webpack, Flask, NumPy, OpenCV, Pandas, PyTorch, TensorFlow, Spacy, Scikit-learn} \\
-     \textbf{Frameworks}{: Flutter, GTK+, Node.js, Express.js, Angular, Django } \\
-     \textbf{Tools}{: Linux, Git, Scrum, Amazon Web Services (AWS), Microsoft Azure, Docker, Postman, Makefile } \\
-    }}
- \end{itemize}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+            \resumeItemListStart
+                \resumeItem{ C $|$ C++ $|$ Java $|$ Python $|$ JavaScript $|$ Dart $|$ Go $|$ TypeScript $|$ Assembly $|$ Shell $|$ SQL $|$ MongoDB $|$ Redis}
+                \resumeItem{ React $|$ Redux $|$ Flutter $|$ Node $|$ Express $|$ Angular $|$ Flask $|$ Django $|$ Numpy $|$ OpenCV $|$ Spacy $|$ Git $|$ Scrum}
+                \resumeItem{ Linux $|$ AWS $|$ Docker $|$ Microservices $|$ Distributed Systems $|$ Frontend $|$ Backend $|$ Full-Stack}
+                \resumeItem{ English, Hindi - \textit{All professional proficiency or above}}
+            \resumeItemListEnd
+        }}
+    \end{itemize}
  
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Kalinga Institute of Industrial Technology (KIIT)}{Bhubaneswar, Odisha}
-      {Pre-final (Third) year (CGPA 8.6), Bachelor of Technology in Computer science and engineering}{2020 -- Expected. 2024}
+      {Kalinga Institute of Industrial Technology (KIIT) [BTech CSE]} {Bhubaneswar, Odisha}
+      {Pre-final (Third) year (CGPA 8.6)}{2020 -- Expected. 2024}
 
     \resumeSubheading
       {Kairali School [ CBSE ]}{Ranchi, Jharkhand}
-      {12th Grade (89\%)}{2019}
+      {12th Grade (90\%)}{2019}
 
     \resumeSubheading
       {Saint Joseph's School [ ICSE ]}{Banka, Bihar}
-      {10th Grade (92.8\%)}{2017}
+      {10th Grade (93\%)}{2017}
   \resumeSubHeadingListEnd
 \end{document}
